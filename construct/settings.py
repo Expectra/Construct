@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY',)
+SECRET_KEY = 'django-insecure-g-vhyd_7y17i_-5(mbl=r=f4v0t!q_rebn(b&+de2eyqev-m%d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #Para testar o erro Page Not Found altere o Debug para False e coloque o IP 127.0.0.1 em ALLOWED_HOSTS
